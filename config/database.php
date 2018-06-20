@@ -12,6 +12,7 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
+    'default' => $db_config['connection'],
 
     'default' => env('DB_CONNECTION', 'mysql'),
 
